@@ -1,0 +1,16 @@
+fastapi
+torch
+torch_geometric
+pydantic
+numpy
+networkx
+scikit-learn
+scipy-openblas64
+gensim
+fastapi
+uvicorn
+seaborn
+matplotlib
+flask
+beautifulsoup4
+lxml
