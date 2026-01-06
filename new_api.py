@@ -10,9 +10,9 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.preprocessing import StandardScaler
 
 # --- CONFIG ---
-MODEL_PATH = "models/best_model_augmented_small.pth"
-META_PATH = "processed_small/meta.pt"
-DATA_PATH = "datasets/tailwind_small.json"
+MODEL_PATH = "models/best_model_augmented.pth"
+META_PATH = "processed/meta.pt"
+DATA_PATH = "datasets/tailwind_augmented.json"
 
 # --- MODEL (Matches Training) ---
 class HierarchicalGraphSAGE(torch.nn.Module):
